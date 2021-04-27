@@ -66,7 +66,7 @@ public class HomeController {
 	        MimeMessageHelper helper = new MimeMessageHelper(message);
 	         
 	        helper.setTo(email);
-	        helper.setText("Welcome");
+	        helper.setText("Welcome to jobs portal.\nHere you will find the jobs well suited for your skills.");
 	        helper.setSubject("Thanks for Registering");
 	         
 	        sender.send(message);
