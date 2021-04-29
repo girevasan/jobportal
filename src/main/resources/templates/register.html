@@ -29,7 +29,7 @@
       <!-- navbar ends -->
     <!-- Login form -->
     <div class="login text-center mt-5"> 
-        <h2> Register Form </h2>
+        <h2> Registration Form </h2>
         <form th:action="@{/process_register}" th:object="${user}" method="post">
             <!-- <input type="text" placeholder="fullname" id="fullname"> </br></br> -->
             <input type="text" placeholder="Name" id="user" th:field="*{name}">  </br></br>
